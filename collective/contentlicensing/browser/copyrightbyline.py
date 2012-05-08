@@ -96,7 +96,7 @@ class CopyrightBylineView(BrowserView):
                 _(u"%s (%s). %s. Retrieved %s, from %s Web site: %s.")
             ) % (
                 unicode_sanitize(creator),
-                create_date,unicode_sanitize(title),
+                unicode_sanitize(create_date),unicode_sanitize(title),
                 date,unicode_sanitize(portal_name),url
             )
         else:
